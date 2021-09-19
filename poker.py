@@ -590,7 +590,7 @@ def verification():
     print(ennemyScore, myScore)
     if myScore == ennemyScore :
         draw()
-    elif myScore < ennemyScore :
+    elif myScore > ennemyScore :
         lose()
     else :
         win( )
