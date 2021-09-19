@@ -456,7 +456,7 @@ def bidRaise():
     newBid = int(entryRaise.get())
     try :
         
-        if player1.mise+newBid > 2*miseMin and newBid <= player1.jeton and newBid >= player1.mise :
+        if player1.mise+newBid > 2*miseMin and newBid <= player1.jeton and newBid >= player1.mise and newBid <= player2.jeton :
 
             player1.miseGlobal += newBid
             player1.jeton -= newBid
