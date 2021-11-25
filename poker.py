@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 from threading import *
 from treys import Card, evaluator
 from os import *
-chdir('Z:\\travail\projects\poker\image')
+chdir('./image')
 print(getcwd())
 
 #--------
